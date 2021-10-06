@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     background-color: #1B1717;
+    
 }
 
 header {
@@ -10,6 +11,7 @@ header {
     margin: 20px auto 10px auto;
     text-align: center;
     padding: 8px;
+    
 }
 
 /*
@@ -37,7 +39,7 @@ li a:hover {
 */
 
 a {
-    color: black;
+    color: white;
 
 }
 
@@ -65,6 +67,7 @@ aside{
     font-size: 30px;
     margin: 0px;
     border-radius: 25px;
+    box-shadow: 5px 4px 5px 0px #932C2C;
     
 }
 
@@ -73,7 +76,7 @@ section {
     height: 40%;
     text-align: center;
     color: rgb(2, 1, 1);
-    padding: 10px;
+    padding: 1px;
     background-color: #EEEBDD;
 }
 
@@ -82,8 +85,10 @@ p {
     background-color: black;
     color: white;
     padding: 8px;
-    border-style: groove;
+    border-style: solid;
     margin: 0px;
+    border-radius: 25px;
+    
 }
 
 article{
@@ -93,6 +98,8 @@ article{
     color: white;
     font-size: 25px;
     background-color: #630000;
+    border-radius: 25px;
+    
 }
 footer{
     background-color: #630000;
@@ -101,7 +108,7 @@ footer{
     text-align: center;
     color: white;
     font-size: 20px;
-    border-radius: 25px;
+    
 }
 
 #flist {
@@ -114,12 +121,13 @@ footer{
     position: fixed;
     top: 0;
     width: 100%;
+    text-align: center;
   }
 
 .navbar a {
     display: inline;
     color: #f2f2f2;
-    text-align: center;
+
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -136,6 +144,10 @@ footer{
     height: 0px; /* Used in this example to enable scrolling */
   }
 
-  .p2 {
+.p2 {
       width: 56%;
   }
+
+ul {
+    margin: 0px;
+}
