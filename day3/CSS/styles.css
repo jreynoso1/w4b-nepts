@@ -1,0 +1,40 @@
+#chessboard {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+#chessboard {
+    width: 800px;
+    height: 800px;
+    border: 4px solid #070707;
+}
+
+#div1 {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    display: inline-block; 
+}
+
+#div2 {
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+
+
+#div3 {
+    background-color:blue;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+
+#div4 {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
