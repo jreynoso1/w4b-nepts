@@ -25,9 +25,17 @@ nav ul {
     margin: 0px;
 }
 */
-li  {
+li {
     list-style: none;
     display: inline;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li .active {
+    background-color: rgb(58, 0, 0);
 }
 
 /*
@@ -41,6 +49,15 @@ li a:hover {
 a {
     color: white;
 }
+
+a:visited {
+    color: #636;
+}
+
+a:hover, a:active, a:focus {
+    color:#c33;
+}
+
 
 /*
 nav ul li{
@@ -67,7 +84,6 @@ aside {
     margin: 0px;
     border-radius: 25px;
     box-shadow: 5px 4px 5px 0px #932C2C;
-    
 }
 
 section {
@@ -87,7 +103,6 @@ p {
     border-style: solid;
     margin: 0px;
     border-radius: 25px;
-    
 }
 
 article{
@@ -98,16 +113,15 @@ article{
     font-size: 25px;
     background-color: #630000;
     border-radius: 25px;
-    
 }
-footer{
+
+footer {
     background-color: #630000;
     width: 100%;
     height: 100%;
     text-align: center;
     color: white;
     font-size: 20px;
-    
 }
 
 #flist {
@@ -127,7 +141,6 @@ footer{
 .navbar a {
     display: inline;
     color: #f2f2f2;
-
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
