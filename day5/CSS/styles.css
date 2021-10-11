@@ -40,7 +40,6 @@ li a:hover {
 
 a {
     color: white;
-
 }
 
 /*
@@ -55,7 +54,7 @@ nav {
 }
 */
 
-aside{
+aside {
     background-color: #810000;
     width: 40%;
     height: 150%;
@@ -122,7 +121,8 @@ footer{
     top: 0;
     width: 100%;
     text-align: center;
-  }
+    height: 35px;
+}
 
 .navbar a {
     display: inline;
@@ -131,23 +131,24 @@ footer{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
 .navbar a:hover {
     background: #ddd;
     color: black;
-  }
+}
   
 .main {
     padding: 0px;
     margin: 0px;
     height: 0px; /* Used in this example to enable scrolling */
-  }
+}
 
 .p2 {
       width: 56%;
-  }
+}
 
 ul {
     margin: 0px;
 }
+
