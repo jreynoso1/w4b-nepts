@@ -1,0 +1,153 @@
+.body {
+    padding: 0%;
+    margin: 0%;
+    background-color: #1B1717;
+    
+}
+
+header {
+    color: #630000;
+    font-size: 4rem;
+    margin: 40px auto 10px auto;
+    text-align: center;
+    padding: 8px;
+
+}
+
+/*
+nav ul {
+    list-style-type: none;
+    background-color: #EEEBDD;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+}
+*/
+li  {
+    list-style: none;
+    display: inline;
+}
+
+/*
+li a:hover {
+    background-color: #810000;
+    text-align: center;
+    padding: 8px 10px;
+  }
+*/
+
+a {
+    color: white;
+
+}
+
+/*
+nav ul li{
+    float: left;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    float: left;
+}
+*/
+
+aside{
+    background-color: #630000;
+    width: 40%;
+    height: 150%;
+    text-align: center;
+    position: float;
+    float: right;
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+    margin: 0px;
+    border-radius: 25px;
+    box-shadow: 5px 4px 5px 0px #932C2C;
+    
+}
+
+section {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    color: rgb(2, 1, 1);
+    padding: 1px;
+    background-color: #EEEBDD;
+}
+
+p {
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-style: solid;
+    margin: 0px;
+    border-radius: 25px;
+    
+}
+
+article{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: #630000;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #630000;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+}
+
+#flist {
+    color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+  
+.main {
+    padding: 0px;
+    margin: 0px;
+    height: 0px; /* Used in this example to enable scrolling */
+}
+
+.p2 {
+      width: 56%;
+}
+
+ul a {
+    margin: 0px;
+    font-size: 30px;
+}
