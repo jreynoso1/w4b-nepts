@@ -1,0 +1,27 @@
+/* You can use an html tag to target all elements of an HTML tag */
+h1 {
+	color: blue;
+	font-family: arial, helvetica, "sans serif";
+	font-size: 150%;
+}
+
+/* You can use the (.) symbol to target a class */
+.heading2 {
+    color: red;
+}
+
+/* The hash tag is used to target a specific part of code */
+#uniqueNavigation{
+    background-color: aqua;
+}
+
+.box1{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(0, 255, 106);
+    border-style: solid;
+    border-color: crimson;
+    border-width: 20px 20px;
+    color: blue;
+
+}
