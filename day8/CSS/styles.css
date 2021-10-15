@@ -1,4 +1,68 @@
 h1 {
     text-align: center;
-    color: blue;
+    color: rgb(54, 54, 102);
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    margin-bottom: 50px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    margin: 0px;
+}
+
+nav ul li:hover {
+    background-color: #8C9DBF;
+}
+
+
+.logo {
+    width: 1%;
+	display:inline-block;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+	margin: 1%;
+	display:inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    float: left;
+    
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #E6E6E6;
+
+}
+
+nav {
+    overflow: hidden;
+    background-color: #2d3338;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
 }
