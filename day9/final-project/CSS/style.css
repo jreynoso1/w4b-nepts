@@ -1,0 +1,35 @@
+h1 {
+    font-size: 42px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: #FEF5ED;
+}
+
+.logo-code {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.h1-welcome {
+    display: inline-block;
+}
+
+.div-welcome {
+    text-align: center;
+}
+
+li{
+	display: inline-block;
+}
+.fa{
+	padding:15px;
+	padding-bottom: 15px;
+	padding-top:15px;
+
+}
+
+a{
+	display: block;
+}
