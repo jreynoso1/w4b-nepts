@@ -1,6 +1,6 @@
 
 body {
-    background-color: #FEF5ED;
+    background-color: #FBF7F0;
     margin: 0px;
 }
 
@@ -8,15 +8,20 @@ body {
     font-size: 42px;
     font-family: 'Roboto Mono', monospace;
     margin: 10px auto;
+    width: 100%;
 }
 
 .logo-code {
     display: inline-block;
-    padding-right: 15px;
+    padding-right: 10px;
 }
 
 .h1-welcome {
     display: inline-block;
+    background-color: #D9E4DD;
+    padding: 200px;
+    margin: 0px;
+    padding-left: 20px;
 }
 
 .div-welcome {
@@ -25,14 +30,14 @@ body {
 
 #top-nav {
     text-align: center;
-    background-color: #99A799;
+    background-color: #555555;
 }
 
 li {
 	display: inline-block;
     font-family: 'Source Serif Pro', serif;
     font-size: 25px;
-    margin: 15px auto;
+    margin: 25px auto;
 }
 
 a {
@@ -43,5 +48,14 @@ a {
 }
 
 a:hover {
-    color: #D3E4CD; 
+    color: #D9E4DD; 
 }
+
+#top-ul {
+    margin: 0px;
+}
+
+.left {
+    float: left;
+}
+
