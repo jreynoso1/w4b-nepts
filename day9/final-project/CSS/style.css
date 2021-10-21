@@ -7,21 +7,16 @@ body {
 .h1-welcome {
     font-size: 42px;
     font-family: 'Roboto Mono', monospace;
-    margin: 10px auto;
     width: 100%;
+    display: inline-block;
+    background-color: #D9E4DD;
+    margin: 0px;
+    padding: 230px 0px;
 }
 
 .logo-code {
     display: inline-block;
     padding-right: 10px;
-}
-
-.h1-welcome {
-    display: inline-block;
-    background-color: #D9E4DD;
-    padding: 200px;
-    margin: 0px;
-    padding-left: 20px;
 }
 
 .div-welcome {
@@ -57,5 +52,42 @@ a:hover {
 
 .left {
     float: left;
+}
+
+#h1-about {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#h1-contact {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Fake image */
+.title-image {
+    background-color: #ADC2A9;
+    width: 100%;
+    padding: px;
+}
+  
+  /* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+  
+  /* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    padding-right: 30px;
+    float: right;
+    width: 70%;
 }
 
