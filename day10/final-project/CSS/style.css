@@ -4,6 +4,10 @@ body {
     margin: 0px;
 }
 
+p {
+    line-height: 2;
+}
+
 .h1-welcome {
     font-size: 42px;
     font-family: 'Roboto Mono', monospace;
@@ -12,6 +16,7 @@ body {
     background-color: #D9E4DD;
     margin: 0px;
     padding: 230px 0px;
+    line-height: 2;
 }
 
 .logo-code {
@@ -132,3 +137,6 @@ a:hover {
     float: right;
     width: 70%;
 }
+
+/*----This bottom line of code is related to the form */
+

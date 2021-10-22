@@ -7,14 +7,18 @@
     <script src="https://kit.fontawesome.com/4bb0759127.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro&family=Source+Serif+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/day9/final-project/CSS/style.css">
+    <link rel="icon" href="/day10/final-project/img folder/icons8-alien-64.png"/>
     <title>Final-Project</title>
 </head>
 <body>
+<!--This part of the code is related to the top welcome text-->
     <div class="div-welcome">
 
         <h1 class="h1-welcome"><div class="logo-code"><i class="fas fa-code"></i></div>Welcome to my Website</h1>
     </div>
 
+
+<!--This port of the code is related to the top navigation bar-->
     <div id="top-nav">
         <ul id="top-ul">
             <li class="left"><a href="https://github.com/jreynoso1"><i class="fas fa-code-branch"></i></a></li>
@@ -26,9 +30,53 @@
 
     <h1 id="h1-contact">My contact page</h1>
 
+<!--This port of the code is related to the form from @https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_form-->
 
- 
+    <div class="container">
+        <form action="action_page.php">
+        <div class="row">
+            <div class="col-25">
+            <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+            <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+            <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+            <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+        </form>
+    </div>
 
+<!--This part of the code is related to the footer-->
     <footer>
         <div class="footer-bottom">
         <a href="https://facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
