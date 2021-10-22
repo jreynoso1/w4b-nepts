@@ -1,0 +1,134 @@
+
+body {
+    background-color: #FBF7F0;
+    margin: 0px;
+}
+
+.h1-welcome {
+    font-size: 42px;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    display: inline-block;
+    background-color: #D9E4DD;
+    margin: 0px;
+    padding: 230px 0px;
+}
+
+.logo-code {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.div-welcome {
+    text-align: center;
+}
+
+#top-nav {
+    text-align: center;
+    background-color: #555555;
+}
+
+li {
+	display: inline-block;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 25px;
+    margin: 25px auto;
+}
+
+a {
+    text-decoration: none;
+	display: inline-block;
+    padding: 0px 9px;
+    color: black;
+}
+
+a:hover {
+    color: #D9E4DD;
+}
+
+#top-ul {
+    margin: 0px;
+}
+
+.left {
+    float: left;
+}
+
+#h1-about {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#h1-contact {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Fake image */
+.title-image {
+    background-color: #ADC2A9;
+    width: 100%;
+    padding: px;
+}
+  
+  /* Add a card effect for articles */
+.card1 {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+.card2 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card3 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+  
+  /* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    padding-right: 30px;
+    float: right;
+    width: 70%;
+}
+
+.footer-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0px;
+    padding: 1rem;
+    background-color: #555555;
+    text-align: center;
+    
+  }
+
+#pop-images {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.aboutcolumn {
+    padding-right: 250px;
+    float: right;
+    width: 70%;
+}
