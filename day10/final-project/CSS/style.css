@@ -1,11 +1,10 @@
 
 body {
-    background-color: #FBF7F0;
+    background-image: url("https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2067&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0px;
-}
-
-p {
-    line-height: 2;
 }
 
 .h1-welcome {
@@ -16,7 +15,6 @@ p {
     background-color: #D9E4DD;
     margin: 0px;
     padding: 230px 0px;
-    line-height: 2;
 }
 
 .logo-code {
@@ -60,23 +58,27 @@ a:hover {
 }
 
 #h1-about {
+    font-size: 42px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
     font-family: 'Source Code Pro', monospace;
 }
 
 #h1-contact {
+    font-size: 42px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
     font-family: 'Source Code Pro', monospace;
 }
 
-/* Fake image */
 .title-image {
     background-color: #ADC2A9;
     width: 100%;
-    padding: px;
+    padding: 20px;
 }
   
-  /* Add a card effect for articles */
 .card1 {
      background-color: white;
      padding: 20px;
@@ -138,5 +140,76 @@ a:hover {
     width: 70%;
 }
 
-/*----This bottom line of code is related to the form */
 
+.form-div {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.class {
+    position: absolute;
+}
+
+.eve-logo {
+    margin-top: 100px;
+    text-align: center;
+}
+
+@keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+
+.spin {
+    animation-name: spinning;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    animation-timing-function: linear;
+  }
+
+#contact-li li {
+    display: list-item;
+    width: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #506349;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #555555;
+  }
+  
+  .container {
+    text-align: left;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #ADC2A9;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+  }
+
+  
