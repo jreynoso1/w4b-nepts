@@ -1,0 +1,264 @@
+
+body {
+    background-image: url("https://images.pexels.com/photos/6373861/pexels-photo-6373861.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 0px 0px;
+}
+
+#myVideo {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+@media (min-aspect: 16/9) {
+    #myVideo {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #myVideo {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.h1-welcome {
+    font-size: 42px;
+    font-family: 'Roboto Mono', monospace;
+    
+    color: #698474;
+    /*
+    background-color: #D9E4DD;
+    */
+    margin: 0px;
+    padding: 230px 0px;
+}
+
+.logo-code {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.div-welcome {
+    text-align: center;
+}
+
+#top-nav {
+    text-align: center;
+    background-color: #555555;
+    
+    width: 100%;
+}
+
+li {
+	display: inline-block;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 25px;
+    margin: 25px auto;
+}
+
+a {
+    text-decoration: none;
+	display: inline-block;
+    padding: 0px 9px;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: #975f15;
+}
+
+#top-ul {
+    margin: 0px;
+}
+
+.left {
+    float: left;
+}
+
+#h1-about {
+    font-size: 42px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#h1-contact {
+    font-size: 42px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.title-image {
+    background-color: #ADC2A9;
+    width: 100%;
+    padding: 20px;
+}
+  
+.card1 {
+     margin-top: 129px;
+     background-color: #A98669;
+     padding: 20px;
+}
+
+.card2 {
+    margin-top: 129px;
+    background-color: #A98669;
+    padding: 20px;
+}
+
+.card3 {
+    
+    background-color: #A98669;
+    padding: 20px;
+    margin-top: 129px;
+    margin-bottom: 200px;
+}
+  
+  /* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    padding-right: 30px;
+    float: right;
+    width: 70%;
+}
+
+.footer-bottom {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0px;
+    padding: 1rem;
+    background-color: #555555;
+    text-align: center;
+    
+  }
+
+#pop-images {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.aboutcolumn {
+    padding-right: 250px;
+    float: right;
+    width: 70%;
+}
+
+
+.form-div {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.class {
+    position: absolute;
+}
+
+.eve-logo {
+    margin-top: 100px;
+    text-align: center;
+}
+
+@keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+
+.spin {
+    animation-name: spinning;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    animation-timing-function: linear;
+  }
+
+#contact-li li {
+    display: list-item;
+    width: auto;
+    display: block;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #506349;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #555555;
+  }
+  
+  .container {
+    text-align: left;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #ADC2A9;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    border-color: #506349;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
