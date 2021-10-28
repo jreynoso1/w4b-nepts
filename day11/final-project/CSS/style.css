@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("https://images.pexels.com/photos/6373861/pexels-photo-6373861.jpeg");
+    /* background-image: url("https://images.pexels.com/photos/6373861/pexels-photo-6373861.jpeg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,13 +32,27 @@ body {
 
 .h1-welcome {
     font-size: 42px;
-    font-family: 'Roboto Mono', monospace;
-    color: #698474;
+    font-family: 'DotGothic16', sans-serif;
+    color: #e3ecde;
+    letter-spacing: 5px;
     /*
     background-color: #D9E4DD;
     */
     margin: 0px;
     padding: 230px 0px;
+}
+
+.h1-favorite {
+    font-size: 45px;
+    color: #e3ecde;
+    font-family: 'Electrolize', sans-serif;
+
+}
+
+.h1-study {
+    font-size: 45px;
+    color: #e3ecde;
+    font-family: 'Electrolize', sans-serif;
 }
 
 .logo-code {
@@ -53,13 +67,12 @@ body {
 #top-nav {
     text-align: center;
     background-color: #555555;
-    
     width: 100%;
 }
 
 li {
 	display: inline-block;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 25px;
     margin: 25px auto;
 }
@@ -68,11 +81,11 @@ a {
     text-decoration: none;
 	display: inline-block;
     padding: 0px 9px;
-    color: rgb(255, 255, 255);
+    color: #e3ecde;
 }
 
 a:hover {
-    color: #975f15;
+    color: #A98669;
 }
 
 #top-ul {
@@ -86,9 +99,10 @@ a:hover {
 #h1-about {
     font-size: 42px;
     margin-top: 100px;
+    color: #e3ecde;
     margin-bottom: 100px;
     text-align: center;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 #h1-contact {
@@ -96,7 +110,7 @@ a:hover {
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: center;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .title-image {
@@ -124,7 +138,34 @@ a:hover {
     margin-top: 129px;
     margin-bottom: 200px;
 }
-  
+
+.haha {
+    display: inline-block;
+    width: max-content;
+}
+
+.card4 {
+    margin: auto;
+    width: 60%;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
+
+#div-video {
+    background-color: #A98669;
+}
+}
+
+
+.youtube {
+    text-align: center;
+    border-style: solid;
+    border-color: #506349;
+    border-radius: 2px;
+    width: 100%;
+    background-color: #ADC2A9;
+}
+
   /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
@@ -140,11 +181,8 @@ a:hover {
 
 .footer-bottom {
     width: 100%;
-    right: 0;
-    bottom: 0;
-    left: 0;
     margin: 0px;
-    padding: 1rem;
+    padding: 10px 0px 10px 0px;
     background-color: #555555;
     text-align: center;
     
@@ -152,7 +190,6 @@ a:hover {
 
 #pop-images {
     text-align: center;
-    margin-bottom: 100px;
 }
 
 .row:after {
@@ -162,8 +199,8 @@ a:hover {
   }
 
 .aboutcolumn {
-    padding-right: 250px;
-    float: right;
+    padding-right: 10px;
+    /*** float: right; ***/
     width: 70%;
 }
 
@@ -241,11 +278,14 @@ input[type=text], select, textarea {
   }
 
   div.gallery {
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
     margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-    border-color: #506349;
+    border: 3px solid #ccc;
+    width: 150px;
+    border-color: white;
+    background-color: #506349;
   }
   
   div.gallery:hover {
@@ -261,3 +301,4 @@ input[type=text], select, textarea {
     padding: 15px;
     text-align: center;
   }
+
