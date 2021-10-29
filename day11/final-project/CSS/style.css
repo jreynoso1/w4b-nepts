@@ -106,6 +106,16 @@ a:hover {
 }
 
 #h1-contact {
+    color: #e3ecde;
+    font-size: 42px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.h1-topic {
+    color: #e3ecde;
     font-size: 42px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -121,19 +131,19 @@ a:hover {
   
 .card1 {
      margin-top: 129px;
-     background-color: #A98669;
+     background-color: #bea189;
      padding: 20px;
 }
 
 .card2 {
     margin-top: 129px;
-    background-color: #A98669;
+    background-color: #bea189;
     padding: 20px;
 }
 
 .card3 {
     
-    background-color: #A98669;
+    background-color: #bea189;
     padding: 20px;
     margin-top: 129px;
     margin-bottom: 200px;
@@ -141,28 +151,27 @@ a:hover {
 
 .haha {
     display: inline-block;
-    width: max-content;
+    width: 100%;
 }
 /*Working on this part along with AboutMe.html @haha */
 .card4 {
     margin: auto;
-    width: 60%;
-    border: 5px solid #FFFF00;
+    width: 100%;
     padding: 10px;
 }
 
 #div-video {
-    background-color: #A98669;
+    /* background-color: #A98669; */
 }
 
 
 .youtube {
     text-align: center;
-    border-style: solid;
-    border-color: #506349;
-    border-radius: 2px;
+    /* border-style: solid; */
+    /* border-color: #506349; */
+    /* border-radius: 2px; */
     width: 100%;
-    background-color: #ADC2A9;
+    /* background-color: #ADC2A9; */
 }
 
   /* Create two unequal columns that floats next to each other */
